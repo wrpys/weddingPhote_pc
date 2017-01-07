@@ -1,0 +1,13 @@
+.liji_yuyue{
+    position: absolute;
+    top:0px;left: 400px;
+    color: #fff;
+    font-size: 25px;
+    width: 240px;
+    line-height: 56px;
+    letter-spacing: 10px;
+    background-color: #f98600;text-align: center;
+}
+.liji_yuyue:hover{
+    color: #fff;
+}

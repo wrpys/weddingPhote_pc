@@ -1,0 +1,105 @@
+
+.order_frame{
+    margin: 10px auto 20px!important;
+    width: 1026px;height: 480px;
+}
+.order_frame .order_product{
+    width: 45%;height: 100%;float: left;
+    position: relative;
+}
+.order_frame .order_from{
+    width: 55%;height: 100%;float: left;position: relative;
+}
+.product_img .max_img img{
+    border: 5px solid #5E88B1;
+}
+.product_img .max_img{
+    width: 100%;
+    height: 350px;
+}
+.order_product .product_value{
+    width: 460px;height: 96px;
+    background-color: #eb644e;position: relative;
+}
+.product_value .t_value{
+    position: absolute;
+    top:20px;left: 30px;
+    color: #fff;
+    font-size: 26px;
+}
+.t_value b{
+    font-size: 40px;
+}
+.product_value .s_value{
+    position: absolute;
+    top:51px;left: 175px;
+    color: #000;
+    font-size: 13px;
+}
+.product_value .q_value{
+    position: absolute; top:20px;left: 175px;
+    display: inline-block;
+    width: 56px;
+    height: 24px;
+    font-size: 15px;
+    line-height: 24px;
+    text-align: center;
+    color: #eb644e;
+    background-color: #ffe1ad;
+}
+.product_value .q_value:before{
+    content: '';
+    position: absolute;
+    z-index: 1;
+    right: -3px;
+    top: 10px;
+    width: 5px;
+    height: 5px;
+    background-color: #eb644e;
+    border-radius: 50%;
+}
+.product_value .q_value:after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: -24px;
+    border: 12px solid;
+    border-color: transparent transparent transparent #ffe1ad;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+}
+.product_value .qrcode_i{
+    position: absolute;
+    right: 40px;
+    top: 17px;
+}
+.order_from .tips{
+    width: 100%;height: 40px;
+    text-align: center; line-height: 40px;
+    font-size: 16px; color: #ff5926;
+}
+.order_from table{
+    width: 100%; margin-top: 15px;
+}
+table td.td_name{
+    padding: 20px 20px 20px 40px;
+    font-size: 14px;
+}
+.td_value input{
+    width: 200px; height: 35px;
+    border-radius:4px; outline: 0px;
+    border: 1px solid #ccc; padding-left: 10px;
+}
+.td_sub{
+    text-align: center; height: 100px;
+}
+.td_sub .btn_subimt{
+    width: 210px;
+    height: 50px;
+    font-size: 18px;
+    color: #fff;
+    letter-spacing: 10px;
+    border: 0;
+    background-color: #f5851f;
+}

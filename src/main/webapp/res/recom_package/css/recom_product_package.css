@@ -1,0 +1,148 @@
+.product_list{
+    width: 100%;height: auto;
+}
+.product_list_title{
+    margin: 10px auto 20px!important;
+    width: 1026px;height: 30px;
+    background-color:#36BFEC;
+    background: linear-gradient(to right, #636E78 , #FDFEFF); /* 标准的语法 */
+}
+.taocan{
+    position: relative;
+}
+.taocan_fig{
+    position: relative;
+}
+.taocan_fig .dianzhan_label{
+    position: absolute;
+    top: 17px;
+    right: 50px;
+    border: 1px solid #fff;
+    width: auto;
+    cursor: pointer;
+    height: 25px;
+    border-radius: 10px;padding-left: 25px;padding-right: 4px;
+}
+.taocan_fig i.dianzang{
+    z-index: 300;
+    position: absolute; left: 5px; top: 3px;
+    font-size: 18px; color: #fff; opacity: 1;
+}
+.taocan_fig .dianzhan_num{
+    display: block;
+    width: auto;height: 100%;line-height: 24px;
+    font-size: 12px; opacity: 1;
+}
+.taocan_fig .share_i{
+    position: absolute; right: 15px; top: 16px;
+    font-size: 14px; color: #fff; opacity: 1;
+    border: 1px solid #fff; padding: 5px 5px; border-radius: 50%;cursor: pointer;
+}
+.product_info{
+    margin: 10px auto 20px!important;
+    width: 1026px;height: 300px;
+    background-color: #f1f2f3;
+    position: relative;
+}
+.info_desc{
+    position: absolute; top: 0px; left: 0px;
+    width: 230px;height: 100%;
+}
+.info_desc .info_name{
+    display: block;
+    position: absolute;left: 15px;top: 11px;
+    margin: 0;width: 88%;text-align: center;
+    line-height: 42px;
+    color: #c35627;
+    font-size: 20px;
+    border-bottom: 2px solid #C1C7CE;
+}
+.info_desc .jiage{
+    display: block;
+    position: absolute;left: 18px;top: 82px;
+    color: #c3996b;
+    font-size: 33px;
+}
+.info_desc .jiage b{
+    font-size: 42px;
+}
+.info_desc .shichang_jiage{
+    display: block;
+    position: absolute;left: 22px;top: 150px;
+    color: #231f20;
+    font-size: 18px;
+}
+
+.info_desc .zekou{
+    display: block;position: absolute;
+    right: 15px; top: 62px;
+    background-color: #ae0808;
+    width: 50px;height: 50px; border-radius: 50%;
+}
+.zekou .zhekou_1{
+    position: absolute;
+    top: 0px;
+    right: 14px;
+    width: 50px;
+    height: 50px;
+    color: #fff;
+    font-size: 28px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 50%;
+}
+.zekou .zhekou_2{
+    position: absolute;
+    top: 7px;
+    right: -8px;
+    width: 50px;
+    height: 50px;
+    color: #fff;
+    font-size: 12px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 50%;
+}
+.info_qrc{
+    position: absolute;bottom: 0px;left: 0px;
+    height: 100px;width: 100%;background-color: #E59999;
+}
+.info_qrc .qrcode_img{
+    position: absolute;
+    bottom: 8px; left: 25px;
+}
+.info_qrc .dianzhan_label{
+    position: absolute;
+    top: 20px;
+    right: 50px;
+    border: 1px solid #fff;
+    width: auto;
+    cursor: pointer;
+    height: 25px;
+    border-radius: 10px;padding-left: 25px;padding-right: 4px;
+}
+.info_qrc i.dianzang{
+    z-index: 300;
+    position: absolute; left: 5px; top: 3px;
+    font-size: 18px; color: #fff; opacity: 1;
+}
+.info_qrc .dianzhan_num{
+    display: block;
+    width: auto;height: 100%;line-height: 24px;
+    font-size: 12px; opacity: 1;
+}
+.info_qrc .share_i{
+    position: absolute; right: 15px; top: 20px;
+    font-size: 14px; color: #fff; opacity: 1;
+    border: 1px solid #fff; padding: 5px 5px; border-radius: 50%;cursor: pointer;
+}
+.info_qrc .ipone_saomiao{
+    display: block;
+    right: 5px;bottom: 15px;
+    position: absolute;
+    font-size: 12px;color: #fff;
+}
+.product_info .dress_img{
+    position: absolute;
+    right: 0px;top: 0px;cursor: pointer;
+}
